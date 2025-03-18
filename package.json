@@ -1,0 +1,18 @@
+{
+  "name": "base-be",
+  "version": "1.0.0",
+  "description": "Dự án Node.js với Express, MongoDB và nodemon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
